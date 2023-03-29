@@ -9,7 +9,7 @@ export const GisfApp = () => {
     /**Obtener categorias */
     const [categorias, setCategorias] = useState(['One piece'])
 
-
+    /*Agregar una categoria */
     const agregarCategoria = (onNewCategoria) => {
         if (categorias.includes(onNewCategoria)) return;
         setCategorias([onNewCategoria, ...categorias])
