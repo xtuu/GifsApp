@@ -1,4 +1,5 @@
 import { useFethGifs } from '../hooks'
+import { Loading } from './loading'
 
 
 export const GifsGrid = ({ categorias }) => {
@@ -7,6 +8,10 @@ export const GifsGrid = ({ categorias }) => {
 
     return (
         <>
+            {/* Componente de carga */}
+            {loading && <Loading cargando={loading} />}
+
+            {/* Imagenes renderizadas */}
             {imagenes.map((gifs) => (
                 <li key={gifs.id} className='relative'>
                     <div className='group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden'>

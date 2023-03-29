@@ -1,0 +1,2 @@
+export { imagenes } from "./imagenes";
+
