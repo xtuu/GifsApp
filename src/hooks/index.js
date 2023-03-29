@@ -1,0 +1,2 @@
+export { useFethGifs } from './useFethGifs';
+
