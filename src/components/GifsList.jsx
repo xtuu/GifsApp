@@ -1,6 +1,7 @@
 import { GifsGrid } from './GifsGrid'
 
 
+
 export const GifsList = ({ categorias }) => {
     return (
         <>

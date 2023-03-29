@@ -1,8 +1,7 @@
 import { useState } from 'react'
 /**Componenetes */
-import { GifsInput } from './components/GifsInput'
-import { GifsList } from './components/GifsList'
-import { GifsTitulo } from './components/GifsTitulo'
+import { GifsInput, GifsList, GifsTitulo } from './components';
+
 
 export const GisfApp = () => {
 
