@@ -1,8 +1,7 @@
 import { Fragment } from 'react'
 import { Transition } from '@headlessui/react'
-
-
-import logo from '../img/React-icon.svg.png'
+import { imagenes } from '../constant/containerImagen'
+// import logo from '../img/React-icon.svg.png'
 
 export const Loading = ({ cargando }) => {
     return (
@@ -37,7 +36,7 @@ export const Loading = ({ cargando }) => {
                         <div className='inline-block align-bottom sm:my-8 sm:align-middle sm:max-w-lg sm:w-full'>
                             <div className='sm:flex sm:items-start justify-center items-center'>
                                 {/* <div className='animate-spin rounded-full h-32 w-32 border-b-2 border-gray-100'></div> */}
-                                <img src={logo} alt='G-Network' className='animate-bounce h-32 w-32' />
+                                <img src={imagenes.imagen1} alt='G-Network' className='animate-bounce h-32 w-32' />
                             </div>
                         </div>
                     </Transition.Child>

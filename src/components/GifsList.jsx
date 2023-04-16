@@ -3,6 +3,8 @@ import { GifsGrid } from './GifsGrid'
 
 
 export const GifsList = ({ categorias }) => {
+
+
     return (
         <>
             <div className=' border-2 px-4 py-3.5 rounded-lg shadow-md mb-3'>

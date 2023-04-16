@@ -1,10 +1,11 @@
 import { useFethGifs } from '../hooks'
 import { Loading } from './loading'
-
+import PropTypes from 'prop-types';
 
 export const GifsGrid = ({ categorias }) => {
 
     const { imagenes, loading } = useFethGifs(categorias)
+
 
     return (
         <>
@@ -27,3 +28,8 @@ export const GifsGrid = ({ categorias }) => {
         </>
     )
 }
+
+GifsGrid.prototype = {
+    categorias: PropTypes.string.isRequired
+}
+
