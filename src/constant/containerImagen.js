@@ -1,3 +1,5 @@
-export const imagenes = { 
-    imagen1: require('../img/React-icon.svg.png'),
+import imagen1 from '../img/React-icon.svg.png';
+
+export const imagenes = {
+    imagen1,
 }
